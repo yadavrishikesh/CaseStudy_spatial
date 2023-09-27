@@ -14,8 +14,8 @@ for (i in 1:5) {
   for (j in 1:3) {
     #i=1;j=1
     # Read the train and test datasets for the current fold
-    train <- readr::read_csv(paste0("C:/Users/11322929/Dropbox (KAUST)/KAUST data challenge 2023/Content-paper-JABES/KaustSimulatedData/2a_", i, "_cross_val_3/cross_val_",j, "/train.csv"))
-    test <- readr::read_csv(paste0("C:/Users/11322929/Dropbox (KAUST)/KAUST data challenge 2023/Content-paper-JABES/KaustSimulatedData/2a_", i, "_cross_val_3/cross_val_",j, "/test.csv"))
+    train <- readr::read_csv(paste0("KaustSimulatedData/2a_", i, "_cross_val_3/cross_val_",j, "/train.csv"))
+    test <- readr::read_csv(paste0("KaustSimulatedData/2a_", i, "_cross_val_3/cross_val_",j, "/test.csv"))
     
     # Convert the train and test data to data frames
     data_train <- data.frame(train)
