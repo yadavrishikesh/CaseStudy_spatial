@@ -4,8 +4,8 @@ setwd(this.path::here())
  for(i in 1:5) {
    for (j in 1:3) {
    #i=1;j=1
-train <- readr::read_csv(paste0("C:/Users/11322929/Dropbox (KAUST)/KAUST data challenge 2023/Content-paper-JABES/KaustSimulatedData/2a_", i, "_cross_val_3/cross_val_",j, "/train.csv" ))
-test<- readr::read_csv(paste0("C:/Users/11322929/Dropbox (KAUST)/KAUST data challenge 2023/Content-paper-JABES/KaustSimulatedData/2a_", i, "_cross_val_3/cross_val_",j, "/test.csv" ))
+train <- readr::read_csv("/train.csv" ))
+test<- readr::read_csv("/test.csv" ))
 
 data_train<- data.frame(train)
 data_train$z<- data_train$data
