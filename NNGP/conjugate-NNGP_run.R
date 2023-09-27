@@ -5,9 +5,8 @@ cross_val_no<- 1
 setwd(this.path::here())
 library(spNNGP)
 source("conjugate-NNGP_function.R")
-
-train <- readr::read_csv(paste0("2a_", dataset.no, "_cross_val_3/cross_val_",cross_val_no, "/train.csv" ))
-test<- readr::read_csv(paste0("2a_", dataset.no, "_cross_val_3/cross_val_",cross_val_no, "/test.csv" ))
+train <- readr::read_csv(paste0("KaustSimulatedData/2a_", i, "_cross_val_3/cross_val_",j, "/train.csv"))
+test <- readr::read_csv(paste0("KaustSimulatedData/2a_", i, "_cross_val_3/cross_val_",j, "/test.csv"))
 data_train<- data.frame(train)
 data_train$z<- data_train$data
 data_train<- data_train[,-3]
