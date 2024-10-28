@@ -6,4 +6,4 @@ This repository contains code developed for the **KAUST Competition on Large Spa
 Our solutions led our team, **DesiBoys**, to secure top positions in multiple sub-competitions, demonstrating the effectiveness of our approach. For more details and access to the code, refer to the published version of the paper: [Hazra et al. 2024](https://doi.org/10.1007/s13253-024-00602-4).
 
 ## References
-Arnab Hazra, *Pratik Nag, *Rishikesh Yadav, and Ying Sun (2024). Exploring the Efficacy of Statistical and Deep Learning Methods for Large Spatial Datasets: A Case Study. *Journal of Agricultural, Biological and Environmental Statistics*. https://doi.org/10.1007/s13253-024-00602-4 
+Arnab Hazra, Pratik Nag, **Rishikesh Yadav**, and Ying Sun (2024). Exploring the Efficacy of Statistical and Deep Learning Methods for Large Spatial Datasets: A Case Study. *Journal of Agricultural, Biological and Environmental Statistics*. https://doi.org/10.1007/s13253-024-00602-4 
